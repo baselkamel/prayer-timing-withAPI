@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=Saira:wght@700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    background-color: #eee;
+}
+h1{
+    margin: 30px 50px 0 0px;
+    font-size: 60px;
+}
+span{
+    margin: 30px 50px 0 0px;
+    font-size: 20px;   
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 50px 0 0px; 
+    
+}
+.card{
+    /* background-color: hsl(240, 0%, 25%); */
+    background-color:#008080;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    
+}
+
+.card p{
+    font-size: 20px;
+   
+}
+h3{
+  display: flex;
+  justify-content: center; 
+  font-size: 37px;
+}
+h5{
+    display: flex;
+    justify-content: center; 
+    font-size: 20px;   
+}
+.form{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+}
+.form select{
+    font-size: 20px;
+    height: 36px;
+}
+@media (max-width:1000px) {
+    h1{
+        font-size: 40px;
+    } 
+  h3,h5{
+   display: block;
+   text-align: center;
+   margin-right: 180PX;
+   font-size: 30px;
+  }  
+  h5{
+    font-size: 22px;
+  }
+  .form{
+    display: block;
+    text-align: center;
+    margin-right: 180PX;
+  }
+ 
+  .card{
+    /* background-color: hsl(240, 0%, 25%); */
+    background-color:#008080;
+    margin: 6px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    
+}
+
+}
